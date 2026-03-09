@@ -9,6 +9,11 @@
 basic.clearScreen()
 basic.showIcon(IconNames.Happy)
 
+// initialize the pins
+pins.digitalWritePin(DigitalPin.P13, 0)
+pins.digitalWritePin(DigitalPin.P14, 0)
+pins.digitalWritePin(DigitalPin.P15, 0)
+
 // turn on the LEDs
 input.onButtonPressed(Button.A, function() {
     // turn on red
