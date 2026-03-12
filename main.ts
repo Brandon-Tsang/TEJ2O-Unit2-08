@@ -19,7 +19,7 @@ input.onButtonPressed(Button.A, function() {
     // turn on red
     pins.digitalWritePin(DigitalPin.P13, 1)
     basic.showString('Red')
-
+    
     // turn off red
     basic.pause(1000)
     pins.digitalWritePin(DigitalPin.P13, 0)
@@ -27,7 +27,7 @@ input.onButtonPressed(Button.A, function() {
     // turn on green
     pins.digitalWritePin(DigitalPin.P14, 1)
     basic.showString('Green')
-
+    
     // turn off green
     basic.pause(1000)
     pins.digitalWritePin(DigitalPin.P14, 0)
