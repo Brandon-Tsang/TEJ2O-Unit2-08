@@ -16,6 +16,7 @@ pins.digitalWritePin(DigitalPin.P15, 0)
 
 // turn on the LEDs
 input.onButtonPressed(Button.A, function() {
+    basic.clearScreen
     // turn on red
     pins.digitalWritePin(DigitalPin.P13, 1)
     basic.showString('Red')
