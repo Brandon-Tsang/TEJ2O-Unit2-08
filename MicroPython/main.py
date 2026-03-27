@@ -18,7 +18,7 @@ pin15.write_digital(0)
 
 # turn on the LEDs
 while True:
-    if button_a.was_pressed:
+    if button_a.is_pressed():
     
         # turn on red
         pin13.write_digital(1)
