@@ -1,14 +1,14 @@
 """
 Created by: Brandon
 Created on: Feb 2026
-This module is a Micro:bit MicroPython program
+This module will show a chain of LEDs.
 """
 
 from microbit import *
 import time
 
 # setup
-display.clear
+display.clear()
 display.show(Image.HAPPY)
 
 # initialize pins
